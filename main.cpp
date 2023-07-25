@@ -6,8 +6,9 @@
 using namespace std;
 
 void fizBuz(const vector<string> &names);
-// void fizBuz(const vector<string> &names, int times); will not work, there is
-// no overload of functions
+
+//will not work, there is no overload of functions
+// void fizBuz(const vector<string> &names, int times); 
 
 int main() {
   vector<string> names{"Abdul", "Brat", "Claudia", "Dave"};
